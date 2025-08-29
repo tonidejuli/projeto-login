@@ -5,3 +5,54 @@ paleta de cores
 verde: #49a09d
 lilás: #5f2c82
  */
+ /* First Mobile */
+
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ html,body{
+    background-color: #5f2c82;
+    height: 100dvh;
+    width: 100dvw;
+ }
+
+ main{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ section#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.474);
+    
+ }
+
+ div#imagem{
+    display: block;
+    background: #5f2c82 url(../imagens/pexels-rolanddrz-16880214.jpg);
+    height: 200px;
+    background-position: right bottom;
+    background-size: cover;
+    
+    
+ }
+
+ div > h1{
+    text-align: center;
+ }
+
+ div>p{
+    text-align: justify;
+ }
