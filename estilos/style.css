@@ -37,6 +37,8 @@ lilás: #5f2c82
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.474);
     
+    transition: width 0.3s, height 0.3s;
+    
  }
 
  div#imagem{
@@ -55,6 +57,7 @@ lilás: #5f2c82
  }
 
  div>p{
-    
+    text-align: justify;
     font-size: 0.8em;
+    margin: 10px;
  }
